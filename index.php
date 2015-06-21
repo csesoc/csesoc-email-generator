@@ -75,7 +75,8 @@ height: 2rem!important;
 ?>
 
 <div class="row">
-	<div class="medium-12 columns">
+
+<div class="medium-12 columns">
 		<div class="panel">
 		
             <p style="text-align:center;font-size:0.8rem">For further information, including event cancellations <a href="http://goo.gl/jMFxF">visit the CSESoc website</a>. </p>
@@ -91,12 +92,14 @@ height: 2rem!important;
                         <td style="text-align:center">
                             <div id="sponsors">
                                 <img height="20px" src="http://i.imgur.com/JWWgdmW.png" title="Arc" style="margin:0 0 0 5px">
-                                <img height="20px" src="http://i.imgur.com/its7TXP.png" title="PWC" style="margin:0 0 0 5px">
-                                <img height="20px" src="http://i.imgur.com/bfOPOq5.png" title="Freelancer" style="margin:0 0 0 5px">
                                 <img height="20px" src="http://i.imgur.com/joMvTxK.png" title="Accenture" style="margin:0 0 0 5px">
-                                <img height="20px" src="http://i.imgur.com/c8ZBNes.png" title="Jane Street" style="margin:0 0 0 5px">
+                                <img height="20px" src="http://www.csesoc.unsw.edu.au/static/media/sponsors/atlassian_1.png" title="Atlassian" style="margin:0 0 0 5px">
+                                <img height="20px" src="http://i.imgur.com/bfOPOq5.png" title="Freelancer" style="margin:0 0 0 5px">
                                 <img height="20px" src="http://i.imgur.com/RZgobMU.png" title="Google" style="margin:0 0 0 5px">
-                                <img height="20px" src="http://i.imgur.com/EhItV4B.png" title="Facebook" style="margin:0 0 0 5px">
+                                <img height="20px" src="http://i.imgur.com/c8ZBNes.png" title="Jane Street" style="margin:0 0 0 5px">
+                                <img height="20px" src="https://www.csesoc.unsw.edu.au/static/media/sponsors/MSFT-logo.png" title="Microsoft" style="margin:0 0 0 5px">
+                                <img height="20px" src="http://i.imgur.com/its7TXP.png" title="PWC" style="margin:0 0 0 5px">
+                                <img height="20px" src="https://www.csesoc.unsw.edu.au/static/media/sponsors/palantir-logo-nbg.png" title="Palantir" style="margin:0 0 0 5px">
                                 
                             </div>
                         </td>
@@ -109,6 +112,7 @@ height: 2rem!important;
 
 </div>
 	</div>
+
 </div>
 
 
