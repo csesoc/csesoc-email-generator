@@ -50,7 +50,7 @@ height: 2rem!important;
   <div class="wrapper">
     <div id="content">
       <div class="row" style='padding-bottom:15px'>
-        <img class="medium-12 columns" src="http://i.imgur.com/zbuGvMf.jpg" />
+        <img class="medium-12 columns" src="http://i.imgur.com/FVydpgu.png" />
       </div>
 
 
