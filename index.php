@@ -1,4 +1,5 @@
-<?php include('dom.php'); ?>
+<?php require('dom.php'); ?>
+<?php require('util.php'); ?>
 <!DOCTYPE html>
 <html lang="en" class=" js no-touch svg inlinesvg svgclippaths no-ie8compat js no-touch svg inlinesvg svgclippaths no-ie8compat"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -58,7 +59,7 @@
             foreach($numbers2 as &$slug) {
                $html = file_get_dom('https://www.csesoc.unsw.edu.au/blog/'.$slug.'/');
                echo "<div class='row' style='padding-top:5px'><div class='medium-12 columns'>";
-               echo $html('div.news-card', 0)->html();
+               echo convert_smart_quotes($html('div.news-card', 0)->html());
                echo "</div></div>";
             }
          }
