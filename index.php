@@ -23,7 +23,7 @@
    <link rel="stylesheet" href="https://www.csesoc.unsw.edu.au/static/css/mezzanine.css">
    <link rel="stylesheet" href="https://www.csesoc.unsw.edu.au/static/css/normalize.css">
    <link rel="stylesheet" href="https://www.csesoc.unsw.edu.au/static/css/foundation.css">
-   <link rel="stylesheet" href="https://www.csesoc.unsw.edu.au/static/css/csesoc.css">
+   <link rel="stylesheet" href="https://www.csesoc.unsw.edu.au/static/css/socannounce.css">
    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
    <link href="./Blog   CSESoc_files/css" rel="stylesheet" type="text/css">
@@ -49,7 +49,7 @@
    <div class="wrapper">
       <div id="content">
          <div class="row" style='padding-bottom:15px'>
-            <img class="medium-12 columns" src="http://i.imgur.com/FVydpgu.png" />
+            <img class="medium-12 columns" src="https://i.imgur.com/KmtyCUl.png" />
          </div>
          <?php
 
@@ -69,7 +69,6 @@
             <div class="medium-12 columns">
                <div class="panel">
                   <p style="text-align:center;font-size:0.8rem">For further information, including event cancellations <a href="https://www.csesoc.unsw.edu.au/">visit the CSESoc website</a>. </p>
-                  <p style="text-align:center;font-size:0.8rem">Help out, <a href="https://www.csesoc.unsw.edu.au/teams/">join a team</a>.</p>
                   <p style="text-align:center;font-size:0.8rem"> If you do not wish to continue to receive this email, you can unsubscribe by removing 'soc-announce' from your  <a href="https://status.cse.unsw.edu.au/Control_Panel/Mail/Mailing_List_Subscriptions">CSE mailing lists</a>.</p>
                   <p style="text-align:center;font-size:0.8rem">Stay connected with CSESoc on <a href="https://www.facebook.com/groups/csesoc/">Facebook</a> for updates on the latest news and events!</p>
                   <table width="100%" class="footerText">
