@@ -1,5 +1,16 @@
 <?php require('dom.php'); ?>
 <?php require('util.php'); ?>
+<?php
+
+$context = stream_context_create(array(
+ 'ssl' => array(
+   'allow_self_signed'=>true,
+   'verify_peer' => false,
+   'verify_peer_name' => false,
+ )
+))
+
+?>
 <!DOCTYPE html>
 <html lang="en" class=" js no-touch svg inlinesvg svgclippaths no-ie8compat js no-touch svg inlinesvg svgclippaths no-ie8compat"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -57,7 +68,7 @@
          if(isset($numbers)) {
             $numbers2 = explode(",", $numbers);
             foreach($numbers2 as &$slug) {
-               $html = file_get_dom('https://www.csesoc.unsw.edu.au/blog/'.$slug.'/');
+               $html = file_get_dom('https://www.csesoc.unsw.edu.au/blog/'.$slug.'/', true, false, $context);
                echo "<div class='row' style='padding-top:5px'><div class='medium-12 columns'>";
                echo convert_smart_quotes($html('div.news-card', 0)->html());
                echo "</div></div>";
@@ -77,7 +88,7 @@
                            <td style="text-align:center">
                               <div id="sponsors">
                                  <?php
-                                 $html = file_get_dom('https://www.csesoc.unsw.edu.au/sponsors');
+                                 $html = file_get_dom('https://www.csesoc.unsw.edu.au/sponsors', true, false, $context);
 
                                  $principal = $html('.table-sponsors', 0);
                                  foreach ($principal('img') as $key => $value) {
